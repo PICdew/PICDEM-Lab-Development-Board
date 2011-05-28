@@ -40,8 +40,8 @@
 
  //----------------------CONFIGURE DEVICE--------------------
  
-	__CONFIG(INTIO & WDTDIS & PWRTDIS & MCLRDIS & 
-			UNPROTECT & BORDIS & IESODIS & FCMDIS);
+	__CONFIG(FOSC_INTRCIO &	WDTE_OFF & PWRTE_OFF & MCLRE_OFF &
+			CP_OFF & CPD_OFF & BOREN_OFF & IESO_OFF & FCMEN_OFF);
 
 //-----------------------DATA MEMORY------------------------
 
