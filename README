@@ -1,0 +1,30 @@
+README file for "PICDEM Lab Development Board" git repository.
+
+This is a repository I setup to keep track of my progress while
+working through the exercises of the PICDEM Lab Development
+Board.
+
+I bought myself the PICDEM Lab Development Board (DM163035)
+from Microchip in order to teach myself:
+  - the PIC microprocessor (although I am an accomplished embedded
+    Linux developer and quite skilled in C programming, I wanted to
+    learn the PIC, preferably in assembly as well as learning how
+    to wire up my own processors and circuits)
+  - electronics/circuits
+  - using git under Windows(R)
+  - exploring MPLABx
+
+
+The PICDEM Lab comes with the following processors:
+  - PIC10F206
+  - PIC12F615
+  - PIC16F88
+  - PIC16F616
+  - PIC16F690
+
+My goals are (in no particular order):
+  - to work through the labs as described in the "PICDEM Lab Development
+    Board User's Guide" using MPLAB on Windows in C
+  - to explore the chips in assembly by reading the relevant data sheets
+  - to wire up my own circuits
+  - to investigate working with MPLABx under Linux
