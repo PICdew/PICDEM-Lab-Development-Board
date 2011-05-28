@@ -84,6 +84,11 @@ void main(void)
 {
 
 	//ADD MAIN CODE HERE
+	Initialize ();
+
+	while (1) {
+		Do_Outputs ();
+	}
 	
 }
 
@@ -98,6 +103,23 @@ void main(void)
 void Initialize(void)
 {
 	//ADD INTIALIZE CODE HERE
+	PORTC = 0b00000000;
+
+	ANS4 = 0;
+	ANS5 = 0;
+	ANS6 = 0;
+	ANS7 = 0;
+	ANS8 = 0;
+	ANS9 = 0;
+
+	TRISC0 = 0;
+	TRISC1 = 0;
+	TRISC2 = 0;
+	TRISC3 = 0;
+	TRISC4 = 0;
+	TRISC5 = 0;
+	TRISC6 = 0;
+	TRISC7 = 0;
 }
 	
 /*----------------------------------------------------------
@@ -133,6 +155,14 @@ void Decide(void)
 void Do_Outputs(void)
 {
 	//ADD DO OUTPUTS CODE HERE
+	RC0 = 1;
+	RC1 = 0;
+	RC2 = 1;
+	RC3 = 1;
+	RC4 = 0;
+	RC5 = 1;
+	RC6 = 0;
+	RC7 = 1;
 }
 
 /*----------------------------------------------------------
