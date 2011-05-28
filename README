@@ -28,3 +28,11 @@ My goals are (in no particular order):
   - to explore the chips in assembly by reading the relevant data sheets
   - to wire up my own circuits
   - to investigate working with MPLABx under Linux
+
+Since the code and behaviour of the various tools are related to their
+versions I'll include the versions of the tools I am using (so in case
+this code doesn't work for you, a version mismatch might be the problem).
+The versions of the various tools I am using are:
+  - WinXP:
+    - MPLAB IDE 8.70
+    - Hi-Tech C Compiler for the PIC10/12/16 MCU family v9.81
