@@ -1,0 +1,8 @@
+I had assumed the Vss bus underneath the solderless
+prototyping area would be connected to Vss (ground).
+
+Apparently this isn't the case. It appears to be floating
+(coincidently at around 3.5V or so).
+
+The jumper between the PIC16F690's Vss and the Vss bus
+is required for the LEDs to light up (see the picture).
